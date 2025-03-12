@@ -11,5 +11,5 @@ jobs:
 
       - name: Run Bug script
         run: |
-          chmod +x run.sh
-          ./run.sh
+          chmod +x bug.sh
+          ./bug.sh
