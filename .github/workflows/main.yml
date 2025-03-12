@@ -12,4 +12,4 @@ jobs:
       - name: Run Bug script
         run: |
           chmod +x bug.sh
-          ./bug.sh ${{ secrets.KAGGLE_UNAME }} ${{ secrets.KAGGLE_KEY }}
+          ./bug.sh ${{ secrets.KAGGLE_USERNAME }} ${{ secrets.KAGGLE_KEY }}
